@@ -5984,9 +5984,10 @@ GameObject:
   - component: {fileID: 2788778893430594180}
   - component: {fileID: 7186202265779853208}
   - component: {fileID: 7790638913574703493}
+  - component: {fileID: 1402279943118211370}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Tank
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6147,6 +6148,27 @@ MonoBehaviour:
   turret: {fileID: 4157637866650189024}
   Gun: {fileID: 715360085756438150}
   Bullet: {fileID: 1067343635503880086, guid: 9f4db76f5d80a62409b8a39b7f8c7fb3, type: 3}
+--- !u!65 &1402279943118211370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614492842636385615}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.7, y: 2.5, z: 6.5}
+  m_Center: {x: 0.29, y: -2.38, z: -1.66}
 --- !u!1 &4715035590967636102
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,7 +7,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    
+    public float lifetime = 5f;
+    public GameObject ExplosionVfx;
     private Rigidbody rb;
     
     // Start is called before the first frame update
@@ -16,4 +17,13 @@ public class Bullet : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * 1000f);
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Tank") || other.gameObject.CompareTag("Destructable"));
+        {
+            Instantiate(ExplosionVfx, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }   
 }

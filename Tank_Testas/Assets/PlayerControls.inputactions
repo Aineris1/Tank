@@ -31,15 +31,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "PlaySound",
-                    "type": "Button",
-                    "id": "3b24cdc1-2dd9-4565-aac0-e312399ea9a7",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -271,17 +262,6 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Fire",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e2d125ad-99b9-4ade-b24b-4dfaa1837854",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "PlaySound",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
